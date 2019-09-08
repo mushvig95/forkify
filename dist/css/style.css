@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header > form > input {
+    height: 30px;
+    width: 300px;
+    outline: none;
+    margin-right: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+  
+::placeholder {
+    color: rgba(124, 124, 124, 0.349);
+}
+
+.recipes {
+    width: 25%;
+    list-style: none;
+    border-right: 1px solid red;
+    margin: 0;
+    padding: 0;
+}
+
+
+.recipes .recipe {
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    background-color: rgba(171, 214, 205, 0.363);
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic img {
+    width: 160px;
+    height: 160px;
+}
+
